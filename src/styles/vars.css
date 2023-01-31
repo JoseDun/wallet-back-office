@@ -1,0 +1,50 @@
+/* Colors */
+:root {
+	--color-primary: #224492;
+	--color-secondary: #45ac35;
+	--color-dark: #1d294a;
+	--color-medium: #cfcfcf;
+	--color-danger: #ec255a;
+
+	--color-light: #f2f2f2;
+	--color-primary-light: #faf6fa;
+	--color-danger-light: #ec255a1a;
+	--color-app-light: #cfe0db;
+
+	--color-white: white;
+	--color-black: black;
+}
+
+/* Font sizes*/
+:root {
+	--font-size-large: 32px;
+	--font-size-medium: 24px;
+	--font-size-small: 14px;
+	--font-size-extra-small: 10px;
+}
+
+/* Radius */
+:root {
+	--radius-large: 20px;
+	--radius-medium: 10px;
+	--radius-small: 5px;
+}
+
+/* Pading */
+:root {
+	--padding-large: 20px;
+	--padding-medium: 10px;
+	--padding-small: 5px;
+}
+
+/* Margin */
+:root {
+	--margin-large: 20px;
+	--margin-medium: 10px;
+	--margin-small: 5px;
+}
+
+/* Layout */
+:root {
+	--menu-width: 270px;
+}

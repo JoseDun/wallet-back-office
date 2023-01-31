@@ -1,0 +1,54 @@
+{
+	"name": "wallet",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@emotion/react": "^11.8.1",
+		"@emotion/styled": "^11.8.1",
+		"@mui/icons-material": "^5.8.4",
+		"@mui/material": "^5.5.0",
+		"axios": "^0.19.2",
+		"bootstrap": "^4.5.0",
+		"react": "^17.0.2",
+		"react-bootstrap": "^1.0.1",
+		"react-dom": "^17.0.2",
+		"react-query": "^3.39.1",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "4.0.3",
+		"moment": "^2.29.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.3%",
+			"not ie 11",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			">0.3%",
+			"not ie 11",
+			"not dead",
+			"not op_mini all"
+		]
+	},
+	"devDependencies": {
+		"better-docs": "^2.3.2",
+		"eslint-config-airbnb": "^18.2.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-jsx-a11y": "^6.3.1",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-react": "^7.20.6",
+		"jsdoc": "^3.6.7",
+		"prettier": "^2.1.2"
+	}
+}

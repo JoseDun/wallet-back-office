@@ -1,0 +1,40 @@
+
+:root {
+	--height: 70px;
+	--border-radius: 10px;
+	--color: #f2f2f2;
+}
+
+.box-item {
+	min-width: 120px;
+	height: var(--height);
+}
+
+.box-item.active {
+	position: relative;
+	background-color: var(--color);
+	border-radius: var(--border-radius);
+	border-right: var(--color) solid calc(((var(--height) / 100 ) * 9));
+}
+
+.arrow {
+	position: absolute;
+	right: calc(var(--height) * -1);
+	top: 1px;
+	width: var(--height);
+	height: var(--height);
+	overflow: hidden;
+	border-radius: var(--border-radius);
+}
+
+.arrow:after {
+	background: var(--color);
+	content: "";
+	position: absolute;
+	left: calc((var(--height) / 2) * -1);
+	top: calc((var(--height) / 6) / 2);
+	width: calc((var(--height) / 6) * 5);
+	height: calc((var(--height) / 6) * 5);
+	transform: rotate(45deg);
+	border-radius: var(--border-radius);
+}
